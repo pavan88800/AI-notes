@@ -1,0 +1,3 @@
+## What is the MCP
+
+-- MCP will allow llm to access a external resources exp: slack, database so on...
