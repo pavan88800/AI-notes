@@ -367,3 +367,11 @@ An AI Agent follows this simple pipeline:
 **Reason → Plan → Decide → Use Tools → Execute**
 
 ---
+
+# Important
+
+## The LLM is responsible for reasoning, planning, and deciding which tool to use. But it doesn't execute the tool itself. The agent framework executes the tool on the LLM's behalf.
+
+✅ Reasoning
+✅ Planning
+✅ Decision making (choosing the tool)
