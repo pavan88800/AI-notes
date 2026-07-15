@@ -282,3 +282,88 @@ An LLM is the brain.
 Tools provide capabilities.
 
 Agents use the brain and tools together to complete goals.
+
+---
+
+# Core Capabilities of an AI Agent
+
+## 1. 🧠 Reasoning
+
+Analyzes the user's request and understands what needs to be done.
+
+**Example:**  
+User: _"Find the cheapest flight to Delhi."_  
+→ Determines that it needs current flight information.
+
+---
+
+## 2. 📋 Planning
+
+Breaks the goal into smaller, executable steps.
+
+**Example:**
+
+1. Search flights
+2. Compare prices
+3. Select the cheapest option
+
+---
+
+## 3. 🤔 Decision Making
+
+Chooses the best action, tool, or API to use.
+
+**Example:**  
+Selects the best flight search API from multiple available options.
+
+---
+
+## 4. 🛠️ Tool Usage
+
+Uses external tools such as APIs, databases, web search, or calculators to gather information or perform actions.
+
+**Example:**  
+Calls a flight API to retrieve live ticket prices.
+
+---
+
+## 5. ⚡ Autonomous Execution
+
+Executes the planned steps automatically until the goal is achieved.
+
+**Example:**  
+Searches flights, compares prices, and returns the cheapest option without asking for step-by-step instructions.
+
+---
+
+## AI Agent Workflow
+
+```text
+User Goal
+    │
+    ▼
+🧠 Reasoning
+    │
+    ▼
+📋 Planning
+    │
+    ▼
+🤔 Decision Making
+    │
+    ▼
+🛠️ Tool Usage
+    │
+    ▼
+⚡ Autonomous Execution
+    │
+    ▼
+✅ Goal Achieved
+```
+
+### Key Takeaway
+
+An AI Agent follows this simple pipeline:
+
+**Reason → Plan → Decide → Use Tools → Execute**
+
+---
