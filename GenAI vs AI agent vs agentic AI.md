@@ -375,3 +375,26 @@ An AI Agent follows this simple pipeline:
 ✅ Reasoning
 ✅ Planning
 ✅ Decision making (choosing the tool)
+
+---
+
+# What Does the LLM Do?
+
+The **LLM (Large Language Model)** is responsible for the intelligence behind an AI agent.
+
+It performs:
+
+- ✅ **Reasoning** – Analyzes the user's request and understands what needs to be done.
+- ✅ **Planning** – Breaks the goal into smaller steps.
+- ✅ **Decision Making** – Decides which tool, API, or database should be used.
+
+However, the LLM **does not execute tools by itself**.
+
+The **Agent Framework** (e.g., LangGraph, LangChain, OpenAI Agents SDK) receives the LLM's decision and actually calls the required tools or APIs. Once the tool returns the results, the LLM interprets the output and generates the final response.
+
+### In short
+
+- 🧠 **LLM** → Thinks (Reasoning, Planning, Decision Making)
+- ⚙️ **Agent Framework** → Executes tool/API calls
+- 🛠️ **Tools/APIs** → Perform the actual work
+- 🧠 **LLM** → Understands the results and responds to the user
